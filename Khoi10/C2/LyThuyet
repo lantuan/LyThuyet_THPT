@@ -1,0 +1,59 @@
+# Bất phương trình bậc nhất hai ẩn
+
+## Tóm tắt lý thuyết
+
+### Khái niệm
+
+- Bất phương trình bậc nhất hai ẩn $x$, $y$ có dạng tổng quát là $ax+by\le c$ (hoặc $ax+by<c$; $ax+by\ge c$; $ax+by>c$), trong đó $a$, $b$, $c$ là những số thực đã cho, $a$ và $b$ không đồng thời bằng $0$, $x$ và $y$ là các ẩn số.
+
+### Biểu diễn tập nghiệm của bất phương trình bậc nhất hai ẩn
+
+- Trong mặt phẳng tọa độ $Oxy$, tập hợp các điểm có tọa độ là nghiệm của bất phương trình $ax+by\le c$ được gọi là miền nghiệm của nó.
+- Quy tắc thực hành biểu diễn miền nghiệm của bất phương trình $ax+by\le c$ (tương tự cho bất phương trình $ax+by\ge c$):
+  * **Bước 1:** Trên mặt phẳng tọa độ $Oxy$, vẽ đường thẳng $\Delta \colon ax+by=c$.
+  * **Bước 2:** Lấy một điểm $M_0\left(x_0;y_0\right)$ không thuộc $\Delta$ (ta thường lấy gốc tọa độ $O$).
+  * **Bước 3:** Tính $ax_0+by_0$ và so sánh $ax_0+by_0$ với $c$.
+  * **Bước 4:** Kết luận:
+    * Nếu $ax_0+by_0<c$ thì nửa mặt phẳng bờ $\Delta$ chứa $M_0$ là miền nghiệm của $ax_0+by_0\leq c$.
+    * Nếu $ax_0+by_0>c$ thì nửa mặt phẳng bờ $\Delta$ không chứa $M_0$ là miền nghiệm của $ax_0+by_0\le c$.
+- Miền nghiệm của bất phương trình $ax + by < c$ là miền nghiệm của bất phương trình $ax + by \le c$ bỏ đi đường thẳng $ax+by=c$ và biểu diễn đường thẳng bằng nét đứt.
+
+# Hệ bất phương trình bậc nhất hai ẩn
+
+## Hệ bất phương trình bậc nhất hai ẩn
+
+### Khái niệm
+
+- Hệ bất phương trình bậc nhất hai ẩn là một hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn.
+- Cặp số $(x_0 ; y_0)$ là nghiệm của một hệ bất phương trình bậc nhất hai ẩn khi $(x_0 ; y_0)$ đồng thời là nghiệm của tất cả các bất phương trình trong hệ đó.
+
+### Biểu diễn miền nghiệm của hệ bất phương trình bậc nhất hai ẩn trên mặt phẳng toạ độ
+
+- Trong mặt phẳng toạ độ, tập hợp các điểm có toạ độ là nghiệm của hệ bất phương trình bậc nhất hai ẩn là miền nghiệm của hệ bất phương trình đó.
+- Miền nghiệm của hệ là giao các miền nghiệm của các bất phương trình trong hệ.
+
+Cách xác định miền nghiệm của một hệ bất phương trình bậc nhất hai ẩn:
+- Trên cùng một mặt phẳng toạ độ, xác định miền nghiệm của mỗi bất phương trình bậc nhất hai ẩn trong hệ và gạch bỏ miền còn lại.
+- Miền không bị gạch là miền nghiệm của hệ bất phương trình đã cho.
+
+### Ứng dụng của hệ bất phương trình bậc nhất hai ẩn
+
+- Tổng quát, người ta chứng minh được rằng giá trị lớn nhất (hay nhỏ nhất) của biểu thức $F(x ; y)=a x+b y$, với $(x ; y)$ là toạ độ các điểm thuộc miền đa giác $A_1 A_2 \dots A_n$, tức là các điểm nằm bên trong hay nằm trên các cạnh của đa giác, đạt được tại một trong các đỉnh của đa giác đó.
+
+### Biểu diễn hình học của tập nghiệm
+
+Cách xác định miền nghiệm của hệ bất phương trình bậc nhất hai ẩn:
+- Với mỗi bất phương trình trong hệ, ta xác định miền nghiệm của nó và gạch bỏ miền còn lại.
+- Sau khi làm như trên lần lượt đối với các bất phương trình trong hệ và trên cùng mặt phẳng tọa độ, miền còn lại không bị gạch chính là miền nghiệm của hệ bất phương trình đã cho.
+
+### Tìm cực trị của biểu thức $F=ax+by$ trên một miền đa giác
+
+- Bài toán: Tìm giá trị lớn nhất, giá trị nhỏ nhất của biểu thức $F=ax+by$ ($a$, $b$ là hai số đã cho không đồng thời bằng $0$) với $x$, $y$ thỏa mãn hệ bất phương trình bậc nhất hai ẩn (có miền nghiệm là miền đa giác $A_1 A_2 \dots A_i A_{i+1} \dots A_n$).
+- Người ta chứng minh được: Biểu thức $F=ax+by$ có giá trị nhỏ nhất, giá trị lớn nhất tại một trong các đỉnh của đa giác $A_1 A_2 \dots A_i A_{i+1} \dots A_n$.
+- Phương pháp:
+  - Bước 1. Tìm miền đa giác $A_1 A_2 \dots A_i A_{i+1} \dots A_n$ là miền nghiệm của hệ bất phương trình.
+  - Bước 2. Tìm tọa độ các đỉnh $A_1$, $A_2$, $\dots$, $A_n$.
+  - Bước 3. Tính $F(x_i ; y_i)$ trong đó $A_i(x_i;y_i$ với $i=1,2,\dots, n$.
+  - Bước 4. Kết luận:
+    Giá trị lớn nhất $M=\max_{i=1,2,\dots n} F(x_i; y_i)$.
+    Giá trị nhỏ nhất $m=\min_{i=1,2,\dots n} F(x_i; y_i)$.

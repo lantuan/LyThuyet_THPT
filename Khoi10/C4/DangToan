@@ -1,0 +1,238 @@
+# Các khái niệm mở đầu
+
+## Tóm tắt lý thuyết
+
+### Khái niệm véc-tơ
+
+### Hai véc-tơ cùng phương, cùng hướng, bằng nhau
+
+### Véc-tơ không
+
+### Dạng: Xác định một véc-tơ, độ dài véc-tơ
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu chỉ ra các véc-tơ được tạo thành từ các điểm, các đỉnh của một hình cho trước.
+- Bài toán yêu cầu tính độ dài (môđun) của một véc-tơ cụ thể trong các hình hình học cơ bản (tam giác, tứ giác, lục giác).
+
+#### Kiến thức cần dùng
+- Véc-tơ là một đoạn thẳng có hướng (phân biệt điểm đầu và điểm cuối).
+- Kí hiệu véc-tơ có điểm đầu $A$, điểm cuối $B$ là $\vec{AB}$.
+- Số véc-tơ khác $\vec{0}$ tạo thành từ $n$ điểm phân biệt là $n(n - 1)$.
+- Độ dài của véc-tơ $\vec{AB}$ chính là độ dài đoạn thẳng $AB$, kí hiệu là $\left| \vec{AB}\right| = AB$.
+- Sử dụng các định lý hình học phẳng để tính độ dài đoạn thẳng: Hệ thức lượng trong tam giác vuông, định lý Pitago, công thức đường trung tuyến, tính chất hình vuông, tam giác đều, hình lục giác đều.
+
+#### Phương pháp
+- **Bước 1:** Xác định rõ tập hợp các điểm đầu và điểm cuối từ dữ kiện đề bài. Ghép từng cặp hai điểm phân biệt để tạo ra hai véc-tơ ngược nhau.
+- **Bước 2:** Đối với bài toán tính độ dài véc-tơ, chuyển độ dài véc-tơ $\left| \vec{AB}\right|$ về tính độ dài đoạn thẳng $AB$.
+- **Bước 3:** Sử dụng các tính chất của hình phẳng đã cho (độ dài cạnh, góc, tính chất đường trung tuyến, đường chéo) kết hợp hệ thức lượng để tính toán giá trị độ dài đoạn thẳng cụ thể.
+
+#### Sai lầm thường gặp
+- Nhầm lẫn giữa đoạn thẳng $AB$ và véc-tơ $\vec{AB}$ dẫn đến đếm thiếu số lượng véc-tơ (véc-tơ $\vec{AB}$ và $\vec{BA}$ là khác nhau).
+- Quên không loại trừ véc-tơ không ($\vec{0}$) khi đề bài yêu cầu tìm véc-tơ khác véc-tơ không.
+
+### Dạng: Hai vectơ cùng phương, cùng hướng và bằng nhau
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu tìm các véc-tơ cùng phương, cùng hướng, ngược hướng hoặc bằng nhau từ một hình hoặc hệ trục tọa độ cho trước.
+- Bài toán yêu cầu dựng hoặc xác định một điểm thỏa mãn đẳng thức véc-tơ bằng nhau: $\vec{AB} = \vec{CD}$.
+- Chứng minh ba điểm thẳng hàng hoặc chứng minh một véc-tơ bằng một véc-tơ khác.
+
+#### Kiến thức cần dùng
+- Hai véc-tơ cùng phương: Giá của chúng song song hoặc trùng nhau.
+- Hai véc-tơ cùng phương thì chỉ có thể cùng hướng hoặc ngược hướng.
+- Hai véc-tơ bằng nhau: Cùng hướng và cùng độ dài.
+- Quy ước véc-tơ $\vec{0}$ cùng phương và cùng hướng với mọi véc-tơ, có độ dài bằng $0$.
+- Cho trước véc-tơ $\vec{a}$ và điểm $O$, luôn tồn tại duy nhất điểm $A$ sao cho $\vec{OA} = \vec{a}$.
+- Ba điểm $A, B, C$ thẳng hàng khi và chỉ khi hai véc-tơ $\vec{AB}$ và $\vec{AC}$ cùng phương.
+
+#### Phương pháp
+- **Bước 1:** Xác định phương của các véc-tơ dựa vào mối quan hệ song song hoặc trùng nhau của các đường thẳng chứa chúng (giá của véc-tơ).
+- **Bước 2:** Xét hướng mũi tên của các véc-tơ trên các giá cùng phương để phân loại cùng hướng hay ngược hướng.
+- **Bước 3:** Kiểm tra độ dài của các véc-tơ. Nếu hai véc-tơ vừa cùng hướng, vừa có độ dài bằng nhau thì kết luận hai véc-tơ đó bằng nhau.
+- **Bước 4 (Đối với bài toán dựng hình):** Sử dụng tính chất của hình bình hành. Nếu $\vec{AB} = \vec{CD}$ và $A, B, C, D$ không thẳng hàng thì $ABDC$ là hình bình hành để tìm vị trí điểm cần dựng.
+
+#### Sai lầm thường gặp
+- Kết luận hai véc-tơ bằng nhau khi chúng mới chỉ cùng độ dài và cùng phương nhưng lại ngược hướng (ví dụ: véc-tơ hai cạnh đối hình bình hành nhưng ngược chiều).
+- Nhầm lẫn thứ tự đỉnh của hình bình hành khi từ đẳng thức véc-tơ $\vec{AB} = \vec{CD}$ suy ra hình bình hành $ABCD$ (đúng phải là hình bình hành $ABDC$).
+- Xét tính cùng phương nhưng quên xét trường hợp các véc-tơ nằm trên cùng một đường thẳng (giá trùng nhau).
+
+# Tổng và hiệu của hai véc-tơ
+
+## Tóm tắt lý thuyết
+
+### Dạng: Tính tổng, hiệu hai véc-tơ
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu rút gọn một biểu thức gồm tổng hoặc hiệu của nhiều véc-tơ nối đuôi nhau hoặc có chung điểm đầu/điểm cuối.
+- Bài toán cho các hình hình học phẳng cụ thể (tam giác, hình bình hành, lục giác đều) và yêu cầu biến đổi, rút gọn biểu thức véc-tơ dựa trên các cạnh của hình đó.
+
+#### Kiến thức cần dùng
+- Quy tắc ba điểm (quy tắc cộng): Với ba điểm $A, B, C$ bất kỳ, ta luôn có $\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$.
+- Quy tắc hiệu (quy tắc trừ): Với ba điểm $O, A, B$ bất kỳ, ta luôn có $\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{AB}$.
+- Quy tắc hình bình hành: Nếu $ABCD$ là hình bình hành thì $\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AC}$.
+- Tính chất của trung điểm và trọng tâm:
+  - Nếu $M$ là trung điểm của đoạn thẳng $AB$ thì $\overrightarrow{MA} + \overrightarrow{MB} = \overrightarrow{0}$.
+  - Nếu $G$ là trọng tâm của tam giác $ABC$ thì $\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{0}$.
+- Tính chất giao hoán và kết hợp của phép cộng véc-tơ.
+- Hai véc-tơ đối nhau: $\overrightarrow{AB} = -\overrightarrow{BA}$.
+
+#### Phương pháp
+- **Bước 1:** Quan sát biểu thức véc-tơ, sử dụng tính chất giao hoán để nhóm các véc-tơ có tính chất "nối đuôi" (điểm cuối của véc-tơ này là điểm đầu của véc-tơ kia) hoặc có "chung điểm đầu".
+- **Bước 2:** Chuyển đổi các phép toán trừ véc-tơ thành phép cộng với véc-tơ đối: $-\overrightarrow{AB} = \overrightarrow{BA}$, hoặc áp dụng trực tiếp quy tắc hiệu nếu chung điểm đầu.
+- **Bước 3:** Sử dụng hệ thức từ giả thiết của đề bài (như tính chất hình bình hành, lục giác đều, trung điểm, trọng tâm) để thay thế các véc-tơ bằng nhau, từ đó thu gọn biểu thức về một véc-tơ đơn giản nhất hoặc véc-tơ không ($\overrightarrow{0}$).
+
+#### Sai lầm thường gặp
+- Nhầm lẫn hướng khi áp dụng quy tắc hiệu, ví dụ viết sai $\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{BA}$ (đúng phải là $\overrightarrow{AB}$).
+- Nhầm lẫn giữa độ dài véc-tơ và đại số thông thường, ví dụ cho rằng từ $\vec{a} + \vec{b} = \vec{c}$ suy ra luôn có $\left| \vec{a}\right| + \left| \vec{b}\right| = \left| \vec{c}\right|$ (điều này chỉ đúng khi hai véc-tơ cùng hướng).
+
+---
+
+### Dạng: Xác định vị trí của một điểm từ đẳng thức véc-tơ
+
+#### Dấu hiệu nhận biết
+- Đề bài cho một đẳng thức véc-tơ có chứa điểm $M$ chưa biết và các điểm cố định khác ($A, B, C...$).
+- Yêu cầu xác định vị trí điểm $M$ hoặc tìm một mệnh đề đúng về tính chất hình học của điểm $M$ (là trọng tâm, tâm hình bình hành, thuộc đường trung trực...).
+
+#### Kiến thức cần dùng
+- Định nghĩa trọng tâm tam giác dưới dạng véc-tơ: $\overrightarrow{MA} + \overrightarrow{MB} + \overrightarrow{MC} = \overrightarrow{0} \Leftrightarrow M$ là trọng tâm $\triangle ABC$.
+- Định nghĩa điểm đối xứng: $\overrightarrow{AC} = \overrightarrow{CM} \Leftrightarrow C$ là trung điểm của $AM$ ($M$ đối xứng với $A$ qua $C$).
+- Định nghĩa hình bình hành: $\overrightarrow{BA} = \overrightarrow{CM}$ thì tứ giác $BAMC$ là hình bình hành (hoặc thẳng hàng tùy thuộc vào vị trí các điểm).
+- Tập hợp điểm thỏa mãn độ dài: $\left|\overrightarrow{MA}\right| = \left|\overrightarrow{MB}\right| \Leftrightarrow MA = MB \Leftrightarrow M$ thuộc đường trung trực của đoạn thẳng $AB$.
+
+#### Phương pháp
+- **Bước 1:** Biến đổi đẳng thức véc-tơ đã cho bằng cách sử dụng các quy tắc cộng, trừ hoặc chèn điểm cố định để dồn điểm $M$ về một vế hoặc đưa về các hệ thức véc-tơ cơ bản đã biết.
+- **Bước 2:** Đưa đẳng thức về dạng véc-tơ quen thuộc, ví dụ:
+  - $\overrightarrow{MA} + \overrightarrow{MB} + \overrightarrow{MC} = \overrightarrow{0}$
+  - $\overrightarrow{AM} = \overrightarrow{v}$ (với $\overrightarrow{v}$ là véc-tơ cố định).
+  - $\left|\overrightarrow{MA}\right| = \left|\overrightarrow{MB}\right|$.
+- **Bước 3:** Đối chiếu với các tính chất hình học tương ứng để đưa ra kết luận về vị trí cụ thể của điểm $M$.
+
+#### Sai lầm thường gặp
+- Đọc sai thứ tự các đỉnh của hình bình hành khi suy ra từ đẳng thức véc-tơ, ví dụ từ $\overrightarrow{BA} = \overrightarrow{CM}$ kết luận nhầm là hình bình hành $ABMC$ (đúng phải là $BAMC$).
+- Quên dấu giá trị tuyệt đối khi biến đổi đẳng thức liên quan đến độ dài, dẫn đến nhầm lẫn giữa đẳng thức véc-tơ và đẳng thức độ dài đoạn thẳng.
+
+---
+
+### Dạng: Tính độ dài véc-tơ
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu tính giá trị đại số độ dài của một véc-tơ tổng hoặc hiệu, có kí hiệu dạng $\left|\overrightarrow{AB} + \overrightarrow{AC}\right|$ hoặc $\left|\overrightarrow{AB} - \overrightarrow{AC}\right|$.
+- Các hình hình học trong bài thường có số đo cạnh và góc cụ thể (tam giác đều, tam giác vuông, hình vuông, hình chữ nhật, hình thang).
+
+#### Kiến thức cần dùng
+- Định nghĩa độ dài véc-tơ: $\left|\overrightarrow{AB}\right| = AB$.
+- Quy tắc cộng, trừ véc-tơ để rút gọn lõi bên trong dấu tuyệt đối về một véc-tơ duy nhất nếu có thể.
+- Kỹ thuật dựng hình bình hành: Để tính độ dài $\left|\overrightarrow{AB} + \overrightarrow{AC}\right|$, ta dựng hình bình hành $ABDC$. Khi đó $\overrightarrow{AB} + \overrightarrow{AC} = \overrightarrow{AD}$ và độ dài bằng $AD$.
+- Hệ thức lượng trong tam giác vuông, định lý Pitago, công thức đường trung tuyến trong tam giác.
+
+#### Phương pháp
+- **Bước 1:** Biến đổi và thu gọn biểu thức véc-tơ nằm bên trong dấu trị tuyệt đối $\left| ... \right|$ thành một véc-tơ duy nhất. Nếu không thể thu gọn trực tiếp, sử dụng phương pháp dựng điểm phụ (như dựng hình bình hành để thay thế tổng hai véc-tơ chung gốc).
+- **Bước 2:** Chuyển bài toán tính độ dài véc-tơ thành bài toán tính độ dài đoạn thẳng hình học thuần túy.
+- **Bước 3:** Sử dụng các định lý hình học phẳng (Pitago, tỉ số lượng giác, tính chất đường chéo hình chữ nhật, đường cao tam giác đều) để tính toán độ dài đoạn thẳng vừa tìm được.
+
+#### Sai lầm thường gặp
+- Sai lầm phổ biến nhất là phá dấu tuyệt đối theo kiểu đại số: $\left|\overrightarrow{AB} + \overrightarrow{BC}\right| = \left|\overrightarrow{AB}\right| + \left|\overrightarrow{BC}\right| = AB + BC$. Đây là biến đổi hoàn toàn sai.
+- Dựng sai điểm phụ khiến véc-tơ tổng bị xác định lệch hướng, dẫn đến tính toán sai độ dài đoạn thẳng.
+
+---
+
+### Dạng: Ứng dụng của véc-tơ trong vật lý
+
+#### Dấu hiệu nhận biết
+- Bài toán xuất hiện các thuật ngữ vật lý như "lực", "cường độ lực", "vận tốc", "hợp lực".
+- Đề bài cho hai hoặc nhiều lực cùng tác động vào một điểm kèm theo góc giữa các lực và yêu cầu tính cường độ của lực tổng hợp.
+
+#### Kiến thức cần dùng
+- Lực là một đại lượng véc-tơ, trong đó giá của véc-tơ là đường thẳng chứa lực, hướng của véc-tơ là hướng của lực, và độ dài của véc-tơ biểu diễn cho cường độ của lực (tính bằng Newton - N).
+- Hợp lực của hai lực $\vec{F}_1$ và $\vec{F}_2$ cùng tác động vào một vật được biểu diễn bằng véc-tơ tổng: $\vec{F} = \vec{F}_1 + \vec{F}_2$.
+- Quy tắc hình bình hành (hoặc hình chữ nhật, hình thoi tùy vào độ lớn và góc của các lực thành phần) để xác định véc-tơ tổng hợp lực.
+
+#### Phương pháp
+- **Bước 1:** Biểu diễn các lực đề bài cho dưới dạng các véc-tơ có chung gốc $M$ (điểm chịu tác động).
+- **Bước 2:** Sử dụng quy tắc hình bình hành để dựng véc-tơ tổng hợp lực $\vec{F} = \vec{F}_1 + \vec{F}_2$. Gọi đỉnh thứ tư của hình bình hành là $D$, khi đó véc-tơ hợp lực là $\overrightarrow{MD}$.
+- **Bước 3:** Dựa vào các tính chất hình học của hình vừa dựng (hình chữ nhật nếu góc $90^\circ$, hình thoi nếu hai lực có cường độ bằng nhau) để tính độ dài đoạn thẳng $MD$. Độ dài này chính là cường độ của lực tổng hợp cần tìm.
+
+#### Sai lầm thường gặp
+- Cộng trực tiếp cường độ các lực theo đại số: $F = F_1 + F_2$ mà bỏ qua góc giữa hai lực.
+- Xác định sai góc của hình bình hành khi tính toán độ dài đường chéo (nhầm lẫn giữa góc ở đỉnh gốc và góc kề bù với nó).
+
+
+# Tích của một véc-tơ với một số
+
+## Tóm tắt lí thuyết
+
+### Kiến thức cần dùng
+- **Định nghĩa**: Tích của một véc-tơ $\overrightarrow{a} \ne \overrightarrow{0}$ với một số thực $k$ là một véc-tơ, kí hiệu là $k\overrightarrow{a}$.
+  - Cùng hướng với $\overrightarrow{a}$ nếu $k > 0$.
+  - Ngược hướng với $\overrightarrow{a}$ nếu $k < 0$.
+  - Độ dài: $|k\overrightarrow{a}| = |k| \cdot |\overrightarrow{a}|$.
+  - Quy ước: $k\overrightarrow{a} = \overrightarrow{0}$ nếu $\overrightarrow{a} = \overrightarrow{0}$ hoặc $k = 0$.
+- **Tính chất**: Với hai véc-tơ $\overrightarrow{a}, \overrightarrow{b}$ và hai số thực $k, t$:
+  - $k(t \overrightarrow{a}) = (k t) \overrightarrow{a}$
+  - $(k+t) \overrightarrow{a} = k \overrightarrow{a} + t \overrightarrow{a}$
+  - $k(\overrightarrow{a} \pm \overrightarrow{b}) = k \overrightarrow{a} \pm k \overrightarrow{b}$
+  - $1\overrightarrow{a} = \overrightarrow{a}$; $(-1) \overrightarrow{a} = -\overrightarrow{a}$
+- **Hệ thức trung điểm**: Điểm $I$ là trung điểm của đoạn thẳng $AB \Leftrightarrow \overrightarrow{IA} + \overrightarrow{IB} = \overrightarrow{0}$.
+- **Hệ thức trọng tâm**: Điểm $G$ là trọng tâm của tam giác $ABC \Leftrightarrow \overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{0}$.
+- **Phân tích một véc-tơ theo hai véc-tơ không cùng phương**: Cho hai véc-tơ không cùng phương $\overrightarrow{a}$ và $\overrightarrow{b}$. Mọi véc-tơ $\overrightarrow{u}$ đều phân tích được một cách duy nhất theo $\overrightarrow{a}$ và $\overrightarrow{b}$, tức là có duy nhất cặp số $(x,y)$ sao cho:
+$$\overrightarrow{u} = x\overrightarrow{a} + y\overrightarrow{b}$$
+
+---
+
+## Các dạng toán
+
+### Dạng: Xác định véc-tơ tích, tính độ dài véc-tơ
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu xác định mối quan hệ giữa các hệ số $k$ trong đẳng thức véc-tơ dạng $\overrightarrow{A} = k\overrightarrow{B}$.
+- Bài toán yêu cầu tính độ dài của một véc-tơ tổng hoặc hiệu có chứa hệ số nhân với véc-tơ (ví dụ: $|\overrightarrow{AB} + \overrightarrow{AC}|$, $|k\overrightarrow{a}|$).
+
+#### Kiến thức cần dùng
+- Định nghĩa tích của số với véc-tơ: Véc-tơ $k\overrightarrow{a}$ có độ dài bằng $|k| |\overrightarrow{a}|$, cùng hướng với $\overrightarrow{a}$ nếu $k \ge 0$, ngược hướng với $\overrightarrow{a}$ nếu $k < 0$ và $\overrightarrow{a} \ne \overrightarrow{0}$.
+- Các công thức hình học phẳng để tính độ dài đoạn thẳng (đường cao tam giác đều, hệ thức lượng trong tam giác vuông, định lý Pitago).
+- Quy tắc trung điểm để thu gọn véc-tơ trước khi tính độ dài: $\overrightarrow{MA} + \overrightarrow{MB} = 2\overrightarrow{MI}$ (với $I$ là trung điểm $AB$).
+
+#### Phương pháp
+- **Bước 1**: Để tìm hệ số $k$ của đẳng thức $\overrightarrow{X} = k\overrightarrow{Y}$, xác định hướng của hai véc-tơ $\overrightarrow{X}$ và $\overrightarrow{Y}$. Nếu cùng hướng thì $k > 0$, nếu ngược hướng thì $k < 0$.
+- **Bước 2**: Tính tỉ số độ dài $|k| = \frac{|\overrightarrow{X}|}{|\overrightarrow{Y}|}$ để suy ra giá trị đại số của $k$.
+- **Bước 3**: Để tính độ dài véc-tơ tổng hoặc hiệu, sử dụng các quy tắc hình học (quy tắc hình bình hành, quy tắc trung điểm) để đưa biểu thức nhiều véc-tơ về dạng một véc-tơ duy nhất, sau đó tính độ dài đoạn thẳng tương ứng.
+
+---
+
+### Dạng: Chứng minh đẳng thức véc-tơ, thu gọn biểu thức
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu chứng minh một hệ thức véc-tơ dạng $A = B$ hoặc thu gọn một tổ hợp tuyến tính các véc-tơ.
+
+#### Kiến thức cần dùng
+- Quy tắc ba điểm (phép cộng): $\overrightarrow{AB} = \overrightarrow{AC} + \overrightarrow{CB}$.
+- Quy tắc hiệu véc-tơ: $\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{AB}$.
+- Quy tắc hình bình hành: Nếu $ABCD$ là hình bình hành thì $\overrightarrow{AC} = \overrightarrow{AB} + \overrightarrow{AD}$.
+- Tính chất trung điểm: $I$ là trung điểm $AB \Leftrightarrow \overrightarrow{IA} + \overrightarrow{IB} = \overrightarrow{0} \Leftrightarrow \overrightarrow{MA} + \overrightarrow{MB} = 2\overrightarrow{MI}$ (với mọi điểm $M$).
+- Tính chất trọng tâm: $G$ là trọng tâm $\triangle ABC \Leftrightarrow \overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{0} \Leftrightarrow \overrightarrow{MA} + \overrightarrow{MB} + \overrightarrow{MC} = 3\overrightarrow{MG}$ (với mọi điểm $M$).
+
+#### Phương pháp
+- **Hướng 1**: Biến đổi một vế thành vế còn lại. Thường xuất phát từ vế phức tạp để đơn giản hóa biểu thức, hoặc xuất phát từ vế đơn giản bằng cách chèn điểm để phân tích véc-tơ.
+- **Hướng 2**: Biến đổi đồng thời cả hai vế cùng đạt về một véc-tơ hoặc một biểu thức véc-tơ trung gian.
+- **Hướng 3**: Biến đổi tương đương đẳng thức cần chứng minh về một đẳng thức luôn đúng (đẳng thức véc-tơ cơ bản hoặc giả thiết).
+- **Hướng 4**: Xuất phát từ một đẳng thức đã biết là đúng, sử dụng các phép toán véc-tơ để biến đổi dẫn đến đẳng thức cần chứng minh.
+
+---
+
+### Dạng: Xác định điểm thỏa mãn đẳng thức véc-tơ
+
+#### Dấu hiệu nhận biết
+- Đề bài cho trước một đẳng thức véc-tơ chứa điểm cần tìm $M$ (hoặc các điểm khác như $K, D$) và các điểm cố định, yêu cầu xác định vị trí hoặc dựng điểm đó trên hình.
+
+#### Kiến thức cần dùng
+- Các phép toán biến đổi véc-tơ cơ bản (quy tắc chèn điểm, hệ thức trung điểm, trọng tâm).
+- Định nghĩa hai véc-tơ bằng nhau.
+- Điều kiện để hai điểm trùng nhau: $\overrightarrow{A_1A_2} = \overrightarrow{0}$ hoặc $\overrightarrow{OA_1} = \overrightarrow{OA_2}$.
+- Điều kiện để hai tam giác cùng trọng tâm: $\triangle ABC$ và $\triangle A'B'C'$ có cùng trọng tâm $\Leftrightarrow \overrightarrow{AA'} + \overrightarrow{BB'} + \overrightarrow{CC'} = \overrightarrow{0}$.
+- Công thức chia đoạn thẳng: Nếu $\overrightarrow{MB} = k \cdot \overrightarrow{MC}$ ($k \ne 1$) thì với điểm $A$ bất kỳ:
+$$\overrightarrow{AM} = \frac{\overrightarrow{AB} - k \cdot \overrightarrow{AC}}{1-k}$$
+
+#### Phương pháp
+- **Bước 1**: Biến đổi đẳng thức véc-tơ đã cho về dạng đơn giản hơn, cô lập điểm cần tìm về một vế dưới dạng $\overrightarrow{OM} = \overrightarrow{v}$ (trong đó $O$ là một điểm cố định chọn làm gốc, $\overrightarrow{v}$ là véc-tơ đã biết hoàn toàn).
+- **Bước 2**: Dựa vào véc-tơ $\overrightarrow{v}$ để xác định hướng và độ dài của véc-tơ $\overrightarrow{OM}$. Nếu cần dựng điểm, lấy $O$ làm gốc, dựng véc-tơ bằng $\overrightarrow{v}$ thì điểm ngọn chính là vị trí điểm $M$ cần tìm.
+- **Bước 3**: Đối chiếu với các mô hình hình học đặc biệt để kết luận (ví dụ: trung điểm của đoạn thẳng, trọng tâm tam giác, đỉnh thứ tư của hình bình hành).

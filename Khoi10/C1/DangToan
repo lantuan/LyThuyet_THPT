@@ -1,0 +1,253 @@
+# Mệnh đề và Tập hợp
+
+## Mệnh đề
+
+### Dạng: Nhận biết mệnh đề và tính đúng sai của mệnh đề
+
+#### Dấu hiệu nhận biết
+- Câu khẳng định có tính chất hoặc đúng hoặc sai một cách khách quan, không thể vừa đúng vừa sai.
+- Các khẳng định toán học như định lý, định nghĩa, tính chất số học, hình học.
+
+#### Kiến thức cần dùng
+- Định nghĩa mệnh đề: Một câu khẳng định đúng gọi là mệnh đề đúng. Một câu khẳng định sai gọi là mệnh đề sai.
+- Các câu cảm thán, câu hỏi, câu mệnh lệnh, hoặc câu chứa tiêu chuẩn đánh giá chủ quan không phải là mệnh đề.
+
+#### Phương pháp
+- **Bước 1:** Xét xem câu đã cho có phải là một khẳng định có tính chân lí rõ ràng (đúng hoặc sai) hay không. Nếu là câu hỏi, câu cảm thán, câu cầu khiến thì loại ngay.
+- **Bước 2:** Nếu là khẳng định, kiểm tra tính đúng đắn dựa trên các kiến thức khoa học hoặc toán học đã biết để kết luận tính đúng/sai.
+
+#### Sai lầm thường gặp
+- Nhầm lẫn câu khẳng định có tính đúng sai phụ thuộc vào thời gian/địa điểm cụ thể (nhưng tại mỗi thời điểm vẫn chỉ đúng hoặc sai) là không phải mệnh đề.
+- Nhầm lẫn mệnh đề chứa biến với mệnh đề thông thường.
+
+---
+
+### Dạng: Mệnh đề chứa biến và tìm giá trị chân lí
+
+#### Dấu hiệu nhận biết
+- Câu khẳng định chứa một hoặc nhiều biến số ($x, y, n, \dots$), chưa thể khẳng định đúng sai ngay mà phụ thuộc vào giá trị cụ thể của các biến đó.
+
+#### Kiến thức cần dùng
+- Định nghĩa mệnh đề chứa biến: Kí hiệu là $P(x)$ hoặc $Q(x, y)$. 
+- Khi thay biến bằng một giá trị cụ thể thuộc tập xác định, câu khẳng định trở thành một mệnh đề thông thường.
+
+#### Phương pháp
+- **Bước 1:** Xác định các biến số có mặt trong câu khẳng định và tập hợp số mà biến thuộc về.
+- **Bước 2:** Thay giá trị cụ thể của biến vào khẳng định để tạo thành mệnh đề số/hình học cụ thể.
+- **Bước 3:** Xét tính đúng sai của mệnh đề cụ thể vừa thu được.
+
+---
+
+### Dạng: Phủ định của một mệnh đề
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu bác bỏ, đưa ra khẳng định trái ngược hoàn toàn với một mệnh đề $P$ cho trước.
+
+#### Kiến thức cần dùng
+- Mệnh đề phủ định của $P$ kí hiệu là $\overline{P}$. 
+- Cách diễn đạt: Thêm hoặc bớt từ "Không" hoặc "Không phải" vào trước vị ngữ của mệnh đề $P$.
+- Quan hệ tính đúng sai: Nếu $P$ đúng thì $\overline{P}$ sai; nếu $P$ sai thì $\overline{P}$ đúng.
+
+#### Phương pháp
+- **Bước 1:** Xác định cấu trúc khẳng định của mệnh đề $P$.
+- **Bước 2:** Thêm hoặc bớt từ phủ định ("không", "không phải") hoặc thay đổi các quan hệ toán học (thay $=$ bằng $\ne$, thay $>$ bằng $\le$, thay $<$ bằng $\ge$).
+- **Bước 3:** Đánh giá tính đúng sai của mệnh đề phủ định dựa trên mối quan hệ logic nghịch đảo với mệnh đề gốc.
+
+#### Sai lầm thường gặp
+- Phủ định sai các quan hệ dấu toán học, ví dụ phủ định của $>$ là $<$ (đúng phải là $\le$).
+
+---
+
+### Dạng: Mệnh đề kéo theo và mệnh đề đảo
+
+#### Dấu hiệu nhận biết
+- Câu khẳng định có cấu trúc logic dạng "Nếu ... thì ..." hoặc đề bài yêu cầu phát biểu dưới dạng "điều kiện cần", "điều kiện đủ".
+
+#### Kiến thức cần dùng
+- Mệnh đề kéo theo kí hiệu là $P \Rightarrow Q$ (Nếu $P$ thì $Q$).
+- Tính đúng sai: Mệnh đề $P \Rightarrow Q$ chỉ sai khi $P$ đúng và $Q$ sai. Trong logic toán học, không xét mối quan hệ nội dung giữa $P$ và $Q$.
+- Khi $P \Rightarrow Q$ là định lý: $P$ là giả thiết, là **điều kiện đủ** để có $Q$; $Q$ là kết luận, là **điều kiện cần** để có $P$.
+- Mệnh đề đảo của $P \Rightarrow Q$ là mệnh đề $Q \Rightarrow P$.
+
+#### Phương pháp
+- **Bước 1:** Xác định mệnh đề thành phần $P$ (nguyên nhân/giả thiết) và $Q$ (kết quả/kết luận).
+- **Bước 2:** Phát biểu mệnh đề kéo theo theo mẫu "Nếu P thì Q" hoặc thay thế bằng thuật ngữ điều kiện cần/đủ: "P là điều kiện đủ để có Q", "Q là điều kiện cần để có P".
+- **Bước 3:** Để phát biểu mệnh đề đảo, hoán đổi vị trí của $P$ và $Q$ thành dạng "Nếu Q thì P".
+- **Bước 4:** Xét tính đúng sai của từng mệnh đề dựa trên quy tắc chân trị (chú ý: mệnh đề gốc đúng thì mệnh đề đảo chưa chắc đúng).
+
+---
+
+### Dạng: Mệnh đề tương đương
+
+#### Dấu hiệu nhận biết
+- Chứa các cụm từ ngữ logic như "nếu và chỉ nếu", "khi và chỉ khi", "tương đương với", hoặc "điều kiện cần và đủ".
+
+#### Kiến thức cần dùng
+- Mệnh đề tương đương kí hiệu là $P \Leftrightarrow Q$.
+- Tính đúng sai: Mệnh đề $P \Leftrightarrow Q$ đúng khi và chỉ khi cả hai mệnh đề kéo theo $P \Rightarrow Q$ và $Q \Rightarrow P$ đều đúng (tức là $P$ và $Q$ cùng đúng hoặc cùng sai).
+
+#### Phương pháp
+- **Bước 1:** Tách mệnh đề thành hai mệnh đề thành phần $P$ và $Q$.
+- **Bước 2:** Xét tính đúng sai của hai mệnh đề kéo theo hai chiều thuận $P \Rightarrow Q$ và nghịch $Q \Rightarrow P$.
+- **Bước 3:** Kết luận mệnh đề tương đương đúng nếu cả hai chiều cùng đúng (hoặc cùng có giá trị chân trị giống nhau), ngược lại kết luận sai.
+
+#### Sai lầm thường gặp
+- Phát biểu cụm từ "P là điều kiện cần và đủ để có Q" khi chưa kiểm tra hoặc chưa khẳng định được tính đúng đắn của mệnh đề tương đương đó.
+
+---
+
+### Dạng: Mệnh đề chứa kí hiệu với mọi ($\forall$) và tồn tại ($\exists$)
+
+#### Dấu hiệu nhận biết
+- Mệnh đề toán học chứa các cụm từ khẳng định tính toàn thể "với mọi", "tất cả", "mọi" hoặc khẳng định tính bộ phận "có ít nhất một", "tồn tại", "có một".
+
+#### Kiến thức cần dùng
+- Kí hiệu $\forall$ đọc là "với mọi". Mệnh đề $\forall x \in X, P(x)$ đúng nếu với mọi $x_0 \in X$ thì $P(x_0)$ đúng; sai nếu chỉ cần chỉ ra một phần tử $x_0 \in X$ sao cho $P(x_0)$ sai.
+- Kí hiệu $\exists$ đọc là "tồn tại" hoặc "có ít nhất một". Mệnh đề $\exists x \in X, P(x)$ đúng nếu chỉ cần chỉ ra một phần tử $x_0 \in X$ làm cho $P(x_0)$ đúng; sai nếu mọi $x_0 \in X$ đều làm cho $P(x_0)$ sai.
+- Quy tắc phủ định:
+  - Phủ định của $\forall x \in X, P(x)$ là $\exists x \in X, \overline{P(x)}$.
+  - Phủ định của $\exists x \in X, P(x)$ là $\forall x \in X, \overline{P(x)}$.
+
+#### Phương pháp
+- **Bước 1:** Chuyển đổi ngôn ngữ văn bản thông thường sang kí hiệu toán học sử dụng cặp kí hiệu $(\forall, \exists)$ đi kèm với tập hợp số tương ứng ($\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$).
+- **Bước 2:** Khi viết mệnh đề phủ định, biến đổi đồng thời hai thành phần: đổi kí hiệu $\forall$ thành $\exists$ (hoặc ngược lại) và phủ định mệnh đề chứa biến $P(x)$ thành $\overline{P(x)}$.
+- **Bước 3:** Xét tính đúng sai của mệnh đề bằng phương pháp phản ví dụ (đối với mệnh đề $\forall$) hoặc chỉ ra sự tồn tại cụ thể (đối với mệnh đề $\exists$).
+
+# Tập hợp và các phép toán trên tập hợp
+
+## Tập hợp và các phép toán trên tập hợp
+
+### Dạng: Mô tả tập hợp bằng cách liệt kê phần tử hoặc nêu tính chất đặc trưng
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu xác định một tập hợp dưới dạng liệt kê các phần tử dựa trên một tính chất cho trước, hoặc ngược lại, cho một dãy số/phần tử cụ thể và yêu cầu tìm quy luật, tính chất đặc trưng của chúng.
+
+#### Kiến thức cần dùng
+- Định nghĩa tập hợp, phần tử thuộc tập hợp ($a \in S$) và không thuộc tập hợp ($a \notin S$).
+- Tập rỗng $\varnothing$: Tập hợp không chứa phần tử nào.
+- Tập hợp số tự nhiên $\mathbb{N}$, số nguyên $\mathbb{Z}$, số hữu tỉ $\mathbb{Q}$, số thực $\mathbb{R}$.
+
+#### Phương pháp
+- **Cách 1: Liệt kê phần tử:** Giải các phương trình, bất phương trình hoặc hệ điều kiện ràng buộc trong đề bài để tìm ra tất cả các giá trị cụ thể của biến, sau đó viết chúng vào trong dấu ngoặc nhọn `{...}`, cách nhau bởi dấu chấm phẩy `;`.
+- **Cách 2: Chỉ ra tính chất đặc trưng:** Tìm mối liên hệ toán học chung, quy luật lặp (như cấp số, lũy thừa, tính chia hết, nghiệm của phương trình) giữa các phần tử cho trước để khái quát hóa thành công thức tổng quát kèm điều kiện giới hạn của biến.
+
+---
+
+### Dạng: Tìm tất cả các tập hợp con của một tập hợp cho trước
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu tìm các tập hợp con thỏa mãn điều kiện về số lượng phần tử (ví dụ: nhỏ hơn một số nào đó) hoặc chứa/không chứa một số phần tử cố định từ tập hợp mẹ.
+
+#### Kiến thức cần dùng
+- Định nghĩa tập con: $T \subset S \Leftrightarrow (\forall x, x \in T \Rightarrow x \in S)$.
+- Tập rỗng $\varnothing$ luôn là tập con của mọi tập hợp.
+- Mọi tập hợp $A$ đều là tập con của chính nó ($A \subset A$).
+- Nếu một tập hợp có $n$ phần tử thì nó sẽ có tổng cộng $2^n$ tập con.
+
+#### Phương pháp
+- **Bước 1:** Xác định rõ số lượng phần tử và các phần tử cụ thể của tập hợp mẹ.
+- **Bước 2:** Phân loại các tập con cần tìm theo số lượng phần tử (Tập con có 0 phần tử là $\varnothing$, tập con có 1 phần tử, tập con có 2 phần tử,...).
+- **Bước 3:** Lọc lại các tập con thỏa mãn chính xác các yêu cầu giới hạn của đề bài.
+
+---
+
+### Dạng: Xác định các phép toán giao, hợp, hiệu, phần bù của các tập hợp
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu tính toán hoặc tìm tập hợp mới bằng các phép toán $A \cap B$, $A \cup B$, $A \setminus B$, hoặc $C_E A$.
+
+#### Kiến thức cần dùng
+- Phép giao: $A \cap B = \{x \mid x \in A \text{ và } x \in B\}$.
+- Phép hợp: $A \cup B = \{x \mid x \in A \text{ hoặc } x \in B\}$.
+- Phép hiệu: $A \setminus B = \{x \mid x \in A \text{ và } x \notin B\}$.
+- Phần bù: Nếu $A \subset E$ thì $C_E A = E \setminus A$.
+
+#### Phương pháp
+- **Bước 1:** Liệt kê đầy đủ hoặc xác định rõ ràng các phần tử của từng tập hợp thành phần.
+- **Bước 2:** Áp dụng định nghĩa của từng phép toán:
+  - Với phép giao $\cap$, nhặt ra các phần tử xuất hiện ở cả hai tập hợp.
+  - Với phép hợp $\cup$, gom tất cả các phần tử của cả hai tập hợp lại (các phần tử trùng nhau chỉ viết một lần).
+  - Với phép hiệu $A \setminus B$, giữ lại các phần tử thuộc $A$ nhưng xóa bỏ các phần tử nào có xuất hiện trong $B$.
+  - Với phần bù $C_E A$, lấy tập mẹ $E$ trừ bỏ đi tập $A$.
+
+#### Sai lầm thường gặp
+- Lầm lẫn giữa các kí hiệu phép toán giao $\cap$ và hợp $\cup$.
+- Xác định sai phần bù khi không chú ý điều kiện tập con hoặc nhầm lẫn thứ tự trong phép toán hiệu ($A \setminus B$ khác $B \setminus A$).
+
+---
+
+### Dạng: Sử dụng biểu đồ Ven để giải các bài toán đếm thực tế
+
+#### Dấu hiệu nhận biết
+- Bài toán thực tế cho biết tổng số đối tượng (học sinh, vận động viên,...) và số lượng đối tượng tham gia hoặc có sở thích đối với 2 hoặc 3 lĩnh vực khác nhau, yêu cầu tìm số lượng đối tượng chỉ thuộc về một lĩnh vực cụ thể hoặc thuộc về tất cả các lĩnh vực.
+
+#### Kiến thức cần dùng
+- Công thức tính số phần tử của hợp hai tập hợp: 
+  $$|A \cup B| = |A| + |B| - |A \cap B|$$
+- Công thức tính số phần tử của hợp ba tập hợp:
+  $$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |B \cap C| - |C \cap A| + |A \cap B \cap C|$$
+
+#### Phương pháp
+- **Bước 1:** Kí hiệu các tập hợp tương ứng với từng nhóm đối tượng hay sở thích trong đề bài.
+- **Bước 2:** Vẽ các vòng tròn biểu đồ Ven đan xen lẫn nhau tương ứng với số lượng tập hợp (thường là 2 hoặc 3 vòng tròn).
+- **Bước 3:** Điền các dữ liệu số lượng vào các miền tương ứng trên biểu đồ, ưu tiên điền từ miền giao của tất cả các tập hợp (phần lõi chung) trước, sau đó tính toán trừ dần ra các miền xung quanh (miền chỉ thuộc hai tập hợp, miền chỉ thuộc một tập hợp).
+- **Bước 4:** Dựa vào biểu đồ Ven đã hoàn thiện để trả lời câu hỏi của đề bài.
+
+---
+
+### Dạng: Chứng minh các đẳng thức hoặc quan hệ bao hàm giữa các tập hợp
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu chứng minh một mệnh đề chứa hệ thức tập hợp dạng $A = B$, $A \subset B$, hoặc các biểu thức logic tương đương giữa nhiều tập hợp.
+
+#### Kiến thức cần dùng
+- Phương pháp chứng minh hai tập hợp bằng nhau: Chứng minh song song hai chiều $A \subset B$ và $B \subset A$.
+- Các quy tắc biến đổi logic toán học: dấu ngoặc nhọn `\left\{ \dots \right\}` đại diện cho phép toán "và" ($\cap$), dấu ngoặc vuông `\left[ \dots \right.` đại diện cho phép toán "hoặc" ($\cup$).
+
+#### Phương pháp
+- **Bước 1:** Lấy một phần tử đại diện bất kì $x$ thuộc vào vế trái (hoặc vế cần chứng minh là tập con).
+- **Bước 2:** Sử dụng các định nghĩa của các phép toán tập hợp ($\cap, \cup, \setminus$) để rã biểu thức tập hợp thành các khẳng định logic của phần tử $x$.
+- **Bước 3:** Sử dụng các tính chất biến đổi của mệnh đề logic (tính chất phân phối, bắc cầu, phủ định) để suy ra $x$ cũng phải thuộc vào vế phải.
+- **Bước 4:** Kết luận quan hệ bao hàm. Thực hiện tương tự theo chiều ngược lại nếu cần chứng minh hai tập hợp bằng nhau.
+
+---
+
+### Dạng: Thực hiện các phép toán trên tập con của tập số thực R
+
+#### Dấu hiệu nhận biết
+- Biểu thức chứa các khoảng $(a; b)$, đoạn $[a; b]$, nửa khoảng $[a; b), (a; b]$ kết hợp với các dấu phép toán tập hợp $\cap, \cup, \setminus$.
+
+#### Kiến thức cần dùng
+- Định nghĩa các tập con của đường thẳng thực: Khoảng, đoạn, nửa khoảng, các tia số chứa vô cực ($-\infty; +\infty$).
+- Cách biểu diễn và gạch bỏ phần không thuộc tập hợp trên trục số thực.
+
+#### Phương pháp
+- **Bước 1:** Chuyển đổi các tập hợp được mô tả bởi bất đẳng thức về dạng các kí hiệu khoảng, đoạn, nửa khoảng tương ứng.
+- **Bước 2:** Vẽ một trục số thực nằm ngang. Biểu diễn các đầu mút của các tập hợp lên trục số theo đúng thứ tự lớn bé.
+- **Bước 3:** Thực hiện tìm kết quả phép toán:
+  - Đối với phép giao $\cap$: Biểu diễn lần lượt các tập hợp, phần nào không thuộc tập hợp đang xét thì gạch bỏ ngay. Phần còn lại không bị gạch chính là giao của các tập hợp.
+  - Đối với phép hợp $\cup$: Tô đậm tất cả các miền thuộc ít nhất một trong các tập hợp cấu thành.
+  - Đối với phép hiệu $A \setminus B$: Tô đậm tập hợp $A$, sau đó tìm xem trên vùng vừa tô có phần nào trùng với tập $B$ thì gạch bỏ phần đó đi. Lưu ý đảo ngược tính chất của đầu mút tại ranh giới bị cắt (ngoặc vuông chuyển thành ngoặc tròn và ngược lại).
+
+#### Sai lầm thường gặp
+- Nhầm lẫn các đầu mút vuông `[` hay tròn `(` khi thực hiện phép toán hiệu hoặc phép toán phần bù trên trục số.
+- Đặt sai thứ tự các giá trị mút trên trục số thực dẫn đến xác định sai miền nghiệm.
+
+---
+
+### Dạng: Tìm điều kiện của tham số m để thỏa mãn quan hệ tập hợp trên số thực
+
+#### Dấu hiệu nhận biết
+- Bài toán chứa tham số $m$ trong các đầu mút của khoảng, đoạn và yêu cầu tìm $m$ để hai tập hợp giao nhau bằng rỗng, một tập là con của tập kia ($A \subset B$), hoặc giao nhau khác rỗng.
+
+#### Kiến thức cần dùng
+- Các điều kiện hình học trên trục số để hai khoảng không chồng lấn lên nhau hoặc khoảng này nằm trọn trong khoảng kia.
+- Chú ý quy tắc xét điều kiện tại các đầu mút bằng nhau (xét xem dấu bằng có xảy ra hay không dựa trên việc mút đó là ngoặc vuông hay ngoặc tròn).
+
+#### Phương pháp
+- **Bước 1:** Xác định điều kiện tồn tại của các tập hợp nếu đầu mút chứa tham số (ví dụ đoạn $[a; b]$ tồn tại khi và chỉ khi $a \le b$).
+- **Bước 2:** Cụ thể hóa yêu cầu bài toán thành hệ bất đẳng thức chứa tham số $m$:
+  - Để $A \cap B = \varnothing$: Các khoảng/đoạn phải nằm hoàn toàn tách biệt về hai phía của nhau trên trục số.
+  - Để $A \subset B$: Toàn bộ các đầu mút của $A$ phải bị kẹp vào bên trong các đầu mút tương ứng của $B$.
+- **Bước 3:** Giải hệ bất đẳng thức chứa tham số $m$ vừa thiết lập.
+- **Bước 4:** Thử lại giá trị biên của $m$ tại các vị trí xảy ra dấu bằng để kiểm tra xem có vi phạm định nghĩa tập hợp hay yêu cầu bài toán hay không, sau đó kết luận.

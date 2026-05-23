@@ -1,0 +1,113 @@
+# Giá trị lượng giác của một góc từ $0^\circ$ đến $180^\circ$
+
+## Tóm tắt lý thuyết
+
+### Giá trị lượng giác của một góc
+
+Trong mặt phẳng tọa độ $Oxy$, nửa đường tròn tâm $O$, bán kính $R=1$ nằm phía trên trục hoành được gọi là nửa đường tròn đơn vị.
+
+Với mỗi góc $\alpha\, \left(0^\circ \leq \alpha \leq 180^\circ\right)$ ta xác định được một điểm $M$ duy nhất trên nửa đường tròn đơn vị sao cho $\widehat{xOM}=\alpha$ và giả sử điểm $M$ có tọa độ $M(x_0;y_0)$.
+
+Khi đó ta có định nghĩa:
+- **sin** của góc $\alpha$ là $y_0$, kí hiệu $\sin\alpha = y_0$.
+- **cô-sin** của góc $\alpha$ là $x_0$, kí hiệu là $\cos\alpha = x_0$.
+- **tang** của góc $\alpha$ là $\dfrac{y_0}{x_0} \left(x_0\neq 0\right)$, kí hiệu là $\tan\alpha = \dfrac{y_0}{x_0}$.
+- **cô-tang** của góc $\alpha$ là $\dfrac{x_0}{y_0} \left(y_0\neq 0\right)$, kí hiệu là $\cot\alpha = \dfrac{x_0}{y_0}$.
+
+Các số $\sin\alpha$, $\cos\alpha$, $\tan\alpha$, $\cot\alpha$ được gọi chung là các giá trị lượng giác của góc $\alpha$.
+
+- **Nhận xét:**
+  - $\tan\alpha=\dfrac{\sin \alpha}{\cos\alpha}$, với $\alpha \neq 90^\circ$.
+  - $\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}$, với $\alpha\neq 0^\circ$ và $\alpha\neq 180^\circ$.
+  - $\tan\alpha=\dfrac{1}{\cot\alpha}$, với $\alpha\not\in\left\{0^\circ, 90^\circ, 180^\circ\right\}$.
+  - Bảng giá trị lượng giác của một số góc đặc biệt:
+    - $\sin 0^\circ = 0$, $\sin 30^\circ = \dfrac{1}{2}$, $\sin 45^\circ = \dfrac{\sqrt{2}}{2}$, $\sin 60^\circ = \dfrac{\sqrt{3}}{2}$, $\sin 90^\circ = 1$, $\sin 180^\circ = 0$.
+    - $\cos 0^\circ = 1$, $\cos 30^\circ = \dfrac{\sqrt{3}}{2}$, $\cos 45^\circ = \dfrac{\sqrt{2}}{2}$, $\cos 60^\circ = \dfrac{1}{2}$, $\cos 90^\circ = 0$, $\cos 180^\circ = -1$.
+    - $\tan 0^\circ = 0$, $\tan 30^\circ = \dfrac{\sqrt{3}}{3}$, $\tan 45^\circ = 1$, $\tan 60^\circ = \sqrt{3}$, $\tan 90^\circ$ không xác định ($\parallel$), $\tan 180^\circ = 0$.
+    - $\cot 0^\circ$ không xác định ($\parallel$), $\cot 30^\circ = \sqrt{3}$, $\cot 45^\circ = 1$, $\cot 60^\circ = \dfrac{\sqrt{3}}{3}$, $\cot 90^\circ = 0$, $\cot 180^\circ$ không xác định ($\parallel$).
+
+### Mối quan hệ giữa các giá trị lượng giác của hai góc bù nhau
+
+- **Góc phụ nhau:**
+  - $\sin\left(90^\circ-\alpha\right)=\cos\alpha$
+  - $\cos\left(90^\circ-\alpha\right)=\sin\alpha$
+  - $\tan\left(90^\circ-\alpha\right)=\cot\alpha$
+  - $\cot\left(90^\circ-\alpha\right)=\tan\alpha$
+
+- **Góc bù nhau:**
+  - $\sin\left(180^\circ-\alpha\right)=\sin\alpha$
+  - $\cos\left(180^\circ-\alpha\right)=-\cos\alpha$
+  - $\tan\left(180^\circ-\alpha\right)=-\tan\alpha$ ($\alpha\neq 90^\circ$)
+  - $\cot\left(180^\circ-\alpha\right)=-\cot\alpha$ ($\alpha\neq 0^\circ$ và $\alpha \neq 180^\circ$)
+
+## Các dạng toán
+
+### Xét dấu của các giá trị lượng giác
+
+Dựa vào các định nghĩa sau:
+- $\sin \alpha = y_0$ (tung độ)
+- $\cos \alpha = x_0$ (hoành độ)
+- $\tan \alpha = \dfrac{y_0}{x_0}$ với $x_0 \neq 0$
+- $\cot \alpha = \dfrac{x_0}{y_0}$ với $y_0 \neq 0$
+
+Ta cần xác định điểm $M$ thuộc cung phần tư nào để suy ra dấu của các giá trị lượng giác.
+
+### Xác định giá trị lượng giác của góc đặc biệt
+
+### Tính giá trị lượng giác
+
+### Chứng minh, rút gọn các biểu thức lượng giác
+
+# Hệ thức lượng trong tam giác
+
+## Tóm tắt lý thuyết
+
+### Định lý Cô-sin
+
+Cho tam giác $ABC$ có $BC=a$, $AC=b$ và $AB=c$.
+* $a^2=b^2+c^2-2bc\cdot \cos A$. 
+* $b^2=c^2+a^2-2ca\cdot \cos B$. 
+* $c^2=a^2+b^2-2ab\cdot \cos C$.
+
+### Định lý Sin
+
+Cho tam giác $ABC$ có $BC=a$, $AC=b$, $AB=c$ và $R$ là bán kính đường tròn ngoại tiếp. Ta có:
+$$ \dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R.$$
+
+- **Nhận xét:** Tỉ lệ "cạnh chia sin góc đối" thì bằng nhau.
+ 
+### Công thức tính độ dài đường trung tuyến
+
+Cho tam giác $ABC$ có $m_a$, $m_b$, $m_c$ lần lượt là các trung tuyến kẻ từ $A$, $B$, $C$. Ta có:
+* $m_a^2=\dfrac{b^2+c^2}{2}-\dfrac{a^2}{4}$.
+* $m_b^2=\dfrac{a^2+c^2}{2}-\dfrac{b^2}{4}$.
+* $m_{c}^2=\dfrac{a^2+b^2}{2}-\dfrac{c^2}{4}$.
+
+### Công thức tính diện tích tam giác
+
+Gọi $S$ là diện tích tam giác $ABC$. Ta có:
+* $S=\dfrac{1}{2}a\cdot h_a=\dfrac{1}{2}b\cdot h_b=\dfrac{1}{2}c\cdot h_c$,
+* $S=\dfrac{1}{2}bc\sin A=\dfrac{1}{2}ca\sin B=\dfrac{1}{2}ab\sin C$,
+* $S=\dfrac{abc}{4R}$,
+* $S=p\cdot r$,
+* $S=\sqrt{p(p-a)(p-b)(p-c)}$.
+
+Trong đó:
+* $h_a$, $h_b$, $h_c$ là độ dài đường cao lần lượt tương ứng với các cạnh $BC$, $CA$, $AB$.
+* $R$ là bán kính đường tròn ngoại tiếp tam giác.
+* $r$ là bán kính đường tròn nội tiếp tam giác.
+* $p=\dfrac{a+b+c}{2}$ là nửa chu vi tam giác.
+
+## Các dạng toán
+
+### Xác định các yếu tố trong tam giác
+
+### Giải tam giác
+
+- Giải tam giác là tính các cạnh và các góc của tam giác dựa trên một số điều kiện cho trước.
+- Trong các bài toán giải tam giác, người ta thường cho tam giác với hai yếu tố như sau: biết một cạnh và hai góc kề; biết một góc và hai cạnh kề góc đó; biết ba cạnh.
+
+### Chứng minh đẳng thức, bất đẳng thức liên quan đến các yếu tố của tam giác, tứ giác
+
+- Để chứng minh đẳng thức ta sử dụng các hệ thức cơ bản để biến đổi về mặt ý nghĩa toán học về ký hiệu hoặc chọn biến đổi từng bước đơn giản tương đương với một đẳng thức đúng.
+- Để chứng minh bất đẳng thức ta sử dụng các hệ thức cơ bản, bất đẳng thức cạnh trong tam giác và bất đẳng thức cổ điển (Cauchy, Bunhiacôpxki,...).
