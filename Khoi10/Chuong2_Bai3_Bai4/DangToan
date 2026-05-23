@@ -1,0 +1,123 @@
+# Bất phương trình bậc nhất hai ẩn
+
+## Tóm tắt lý thuyết
+
+### Tên mục: Bất phương trình bậc nhất hai ẩn
+
+#### Dấu hiệu nhận biết
+- Có dạng tổng quát: $ax+by\le c$, $ax+by<c$, $ax+by\ge c$, hoặc $ax+by>c$.
+- Trong đó $a, b, c$ là những số thực đã cho, $a$ và $b$ không đồng thời bằng $0$, $x$ và $y$ là các ẩn số.
+
+### Tên mục: Biểu diễn tập nghiệm của bất phương trình bậc nhất hai ẩn
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu mô tả tập nghiệm hoặc biểu diễn miền nghiệm của bất phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$.
+
+#### Kiến thức cần dùng
+- Định nghĩa miền nghiệm: Trong mặt phẳng tọa độ $Oxy$, tập hợp các điểm có tọa độ là nghiệm của bất phương trình được gọi là miền nghiệm của nó.
+
+#### Phương pháp
+Quy tắc thực hành biểu diễn miền nghiệm của bất phương trình $ax+by\le c$ (tương tự cho bất phương trình $ax+by\ge c$):
+- **Bước 1:** Trên mặt phẳng tọa độ $Oxy$, vẽ đường thẳng $\Delta \colon ax+by=c$.
+- **Bước 2:** Lấy một điểm $M_0\left(x_0;y_0\right)$ không thuộc $\Delta$ (thường lấy gốc tọa độ $O(0;0)$ nếu $\Delta$ không đi qua gốc tọa độ).
+- **Bước 3:** Tính $ax_0+by_0$ và so sánh giá trị này với $c$.
+- **Bước 4:** Kết luận miền nghiệm:
+    - Nếu $ax_0+by_0<c$ thì nửa mặt phẳng bờ $\Delta$ chứa $M_0$ là miền nghiệm của $ax_0+by_0\leq c$.
+    - Nếu $ax_0+by_0>c$ thì nửa mặt phẳng bờ $\Delta$ không chứa $M_0$ là miền nghiệm của $ax_0+by_0\le c$.
+    - *Lưu ý:* Đối với bất phương trình chứa dấu $<$ hoặc $>$, miền nghiệm không bao gồm đường thẳng $\Delta$ (biểu diễn đường thẳng bằng nét đứt).
+
+---
+
+## Các dạng toán
+
+### Dạng: Bất phương trình bậc nhất hai ẩn và bài toán liên quan
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu kiểm tra một hoặc nhiều cặp số $(x_0;y_0)$ có phải là nghiệm của bất phương trình hay không.
+- Bài toán yêu cầu vẽ/xác định hình học miền nghiệm của một bất phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$.
+- Bài toán chứa tham số $m, n$ yêu cầu tìm điều kiện để một điểm hoặc một đường thẳng thuộc miền nghiệm của bất phương trình.
+
+#### Kiến thức cần dùng
+- Định nghĩa nghiệm và miền nghiệm của bất phương trình bậc nhất hai ẩn.
+- Vị trí tương đối của hai đường thẳng: song song, trùng nhau.
+- Khoảng cách, vị trí cùng phía, khác phía của hai điểm đối với một đường thẳng.
+
+#### Phương pháp
+- **Dạng bài kiểm tra nghiệm:** Thay trực tiếp tọa độ $(x_0; y_0)$ vào bất phương trình. Nếu mệnh đề thu được là đúng thì cặp số là nghiệm, ngược lại thì không phải là nghiệm.
+- **Dạng bài tìm điều kiện để mọi điểm thuộc đường thẳng $(d')$ đều là nghiệm của bất phương trình cho trước có bờ là $(d)$:**
+    - **Bước 1:** Xác định điều kiện cần là $(d')$ phải song song hoặc trùng với đường thẳng $(d)$. Giải điều kiện song song để tìm giá trị tham số.
+    - **Bước 2:** Xác định điều kiện đủ bằng phép tịnh tiến đồ thị hoặc thử điểm đại diện, đảm bảo toàn bộ đường thẳng $(d')$ nằm hoàn toàn trong miền nghiệm (nửa mặt phẳng) được quy định bởi bất phương trình.
+
+### Dạng: Bài toán thực tế liên quan
+
+#### Dấu hiệu nhận biết
+- Đề bài cho dưới dạng lời văn, mô tả các tình huống thực tế (chi phí mua sắm, thời gian làm việc, diện tích sử dụng, doanh thu bán hàng, quản lý rạp phim, cửa hàng...).
+- Xuất hiện các đại lượng ràng buộc lẫn nhau bằng các quan hệ không vượt quá ($\le$), tối thiểu ($\ge$), ít hơn ($<$), nhiều hơn ($>$).
+
+#### Kiến thức cần dùng
+- Kỹ năng chuyển đổi từ ngôn ngữ thực tế sang ngôn ngữ ký hiệu toán học.
+- Mô hình hóa toán học bằng bất phương trình bậc nhất hai ẩn.
+
+#### Phương pháp
+- **Bước 1:** Chọn hai ẩn số $x$ và $y$ đại diện cho các đại lượng cần tìm trong bài toán (lưu ý đặt điều kiện cho ẩn như $x, y \ge 0$, $x, y \in \mathbb{N}$ hoặc $x, y \in \mathbb{N}^*$ tùy theo ngữ cảnh).
+- **Bước 2:** Phân tích các mối quan hệ ràng buộc của đề bài để thiết lập các biểu thức đại số theo $x$ và $y$.
+- **Bước 3:** Lập bất phương trình bậc nhất hai ẩn dựa trên các từ khóa giới hạn (ví dụ: "không quá" $\rightarrow \le$; "đạt tối thiểu/ít nhất" $\rightarrow \ge$; "ít hơn" $\rightarrow <$).
+- **Bước 4:** Biểu diễn miền nghiệm trên mặt phẳng tọa độ (nếu bài toán yêu cầu) kết hợp với điều kiện của ẩn để tìm tập nghiệm thực tế phù hợp.
+
+
+# Hệ bất phương trình bậc nhất hai ẩn
+
+## Hệ bất phương trình bậc nhất hai ẩn
+
+### Dạng: Biểu diễn hình học của tập nghiệm (Xác định miền nghiệm của hệ bất phương trình bậc nhất hai ẩn)
+
+#### Dấu hiệu nhận biết
+- Đề bài yêu cầu biểu diễn hình học tập nghiệm hoặc xác định miền nghiệm của một hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ.
+
+#### Kiến thức cần dùng
+- Khái niệm hệ bất phương trình bậc nhất hai ẩn và nghiệm của hệ (là cặp số $(x_0; y_0)$ đồng thời thỏa mãn tất cả các bất phương trình trong hệ).
+- Cách vẽ đường thẳng $ax + by = c$.
+- Quy tắc xét điểm nhận biết nửa mặt phẳng nghiệm của bất phương trình bậc nhất hai ẩn.
+- Miền nghiệm của hệ bất phương trình là giao các miền nghiệm của các bất phương trình thành phần trong hệ.
+
+#### Phương pháp
+- **Bước 1**: Trên cùng một mặt phẳng tọa độ $Oxy$, vẽ các đường thẳng tương ứng với từng bất phương trình trong hệ.
+- **Bước 2**: Với mỗi bất phương trình, chọn một điểm không thuộc đường thẳng tương ứng (thường chọn gốc tọa độ $O(0;0)$ nếu đường thẳng không đi qua $O$) để thử vào bất phương trình. Xác định miền nghiệm của bất phương trình đó và gạch bỏ (hoặc tô đậm) miền còn lại không thỏa mãn.
+- **Bước 3**: Sau khi thực hiện lần lượt cho tất cả các bất phương trình trong hệ, miền không bị gạch (hoặc miền trắng còn lại) chính là miền nghiệm của hệ bất phương trình đã cho.
+- **Bước 4**: Xác định rõ miền nghiệm có lấy các bờ (đường thẳng giới hạn) hay không dựa vào dấu của bất phương trình (có dấu bằng "$\le, \ge$" hay không có dấu bằng "$<, >$").
+
+---
+
+### Dạng: Tìm cực trị của biểu thức $F = ax + by$ trên một miền đa giác
+
+#### Dấu hiệu nhận biết
+- Bài toán yêu cầu tìm giá trị lớn nhất (max) hoặc giá trị nhỏ nhất (min) của một biểu thức tuyến tính $F(x; y) = ax + by$ với các biến $x, y$ bị ràng buộc bởi một hệ bất phương trình bậc nhất hai ẩn.
+
+#### Kiến thức cần dùng
+- Định lý về cực trị của biểu thức tuyến tính trên miền đa giác: Giá trị lớn nhất (hay nhỏ nhất) của biểu thức $F(x; y) = ax + by$, với $(x; y)$ là tọa độ các điểm thuộc miền đa giác (nằm bên trong hay nằm trên các cạnh của đa giác), đạt được tại một trong các đỉnh của đa giác đó.
+
+#### Phương pháp
+- **Bước 1**: Biểu diễn hình học và xác định miền nghiệm của hệ bất phương trình ràng buộc. Kiểm tra xem miền nghiệm có phải là một miền đa giác $A_1 A_2 \dots A_n$ hay không.
+- **Bước 2**: Tìm tọa độ chính xác của tất cả các đỉnh $A_1, A_2, \dots, A_n$ của đa giác bằng cách giải các hệ phương trình đường thẳng giao nhau tương ứng.
+- **Bước 3**: Tính giá trị của biểu thức $F(x_i; y_i)$ tại tọa độ từng đỉnh $A_i(x_i; y_i)$ với $i = 1, 2, \dots, n$.
+- **Bước 4**: So sánh các kết quả đã tính để đưa ra kết luận:
+  - Giá trị lớn nhất: $M = \max \{F(A_1), F(A_2), \dots, F(A_n)\}$.
+  - Giá trị nhỏ nhất: $m = \min \{F(A_1), F(A_2), \dots, F(A_n)\}$.
+
+---
+
+### Dạng: Xác định tham số $m$ dựa vào tính chất hình học của miền nghiệm
+
+#### Dấu hiệu nhận biết
+- Bài toán cho một hệ bất phương trình chứa tham số (ví dụ: $m, a$). Yêu cầu tìm giá trị của tham số sao cho miền nghiệm của hệ thỏa mãn một tính chất hình học cho trước (là một tam giác, hình chữ nhật, có diện tích hoặc chu vi bằng một giá trị cụ thể).
+
+#### Kiến thức cần dùng
+- Phương pháp xác định miền nghiệm của hệ bất phương trình trên mặt phẳng tọa độ $Oxy$.
+- Công thức tính diện tích, chu vi của các hình hình học cơ bản (tam giác vuông, tam giác thường, hình chữ nhật).
+- Cách xác định tọa độ các giao điểm của đường thẳng chứa tham số với các trục tọa độ hoặc với các đường thẳng khác.
+
+#### Phương pháp
+- **Bước 1**: Xác định các đường biên của miền nghiệm. Đối với đường thẳng chứa tham số, lập luận tìm tọa độ các giao điểm của nó với các trục tọa độ $Ox, Oy$ hoặc các đường biên cố định theo tham số.
+- **Bước 2**: Xác định hình dạng cụ thể của miền nghiệm (ví dụ: tam giác vuông tại gốc tọa độ, hình chữ nhật,...) và thiết lập các điều kiện tồn tại của hình đó (ví dụ: điều kiện để tham số làm cho giao điểm nằm ở phần dương/âm của trục tọa độ).
+- **Bước 3**: Sử dụng công thức hình học phù hợp (chu vi, diện tích) để thiết lập một phương trình chứa tham số theo yêu cầu bài toán.
+- **Bước 4**: Giải phương trình tìm tham số, đối chiếu với điều kiện bài toán và kết luận.

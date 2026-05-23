@@ -1,0 +1,129 @@
+# Mệnh đề và Tập hợp
+
+## Mệnh đề
+
+### Mệnh đề, mệnh đề chứa biến
+
+**Mệnh đề**
+
+### Khái niệm
+
+- Mệnh đề phải hoặc Đúng hoặc Sai.
+- Một mệnh đề không thể vừa đúng vừa sai.
+
+**Mệnh đề chứa biến**
+
+### Ví dụ minh họa cơ bản
+
+Ví dụ:
+- Cho $P(x) \colon$ " $p$ là số lẻ " (với $p$ là số tự nhiên);
+- $Q(x,y)\colon "x+2<y"$ (với $x$, $y$ là số thực).
+
+### Mệnh đề phủ định
+
+### Khái niệm
+
+- Cho mệnh đề $P$. Mệnh đề $Q \colon$ "Không $P$" hoặc "Không phải $P$" được gọi là mệnh đề phủ định của $P$ - kí hiệu $\overline{P}$.
+- Mệnh đề $P$ đúng thì $\overline{P}$ sai và ngược lại.
+
+### Mệnh đề kéo theo - mệnh đề đảo
+
+### Khái niệm
+
+- Cho hai mệnh đề $P$ và $Q$. Mệnh đề "Nếu $P$ thì $Q$" được gọi là **mệnh đề kéo theo** - Kí hiệu $P \Rightarrow Q$.
+- Mệnh đề $P \Rightarrow Q$ chỉ sai khi $P$ đúng và $Q$ sai.
+- Cho mệnh đề $P\Rightarrow Q$ thì mệnh đề $Q \Rightarrow P$ được gọi là **mệnh đề đảo** của mệnh đề $P \Rightarrow Q$.
+
+### Định lý
+
+- Các định lí toán học là những mệnh đề đúng và thường có dạng $P \Rightarrow Q$. Khi đó ta nói: $P$ là giả thiết của định lí, $Q$ là kết luận của định lí, hoặc "$P$ là điều kiện đủ để có $Q$" hoặc "$Q$ là điều kiện cần để có $P$".
+
+### Mệnh đề tương đương
+
+### Khái niệm
+
+- Mệnh đề "$P$ nếu và chỉ nếu $Q$" được gọi là **mệnh đề tương đương** - kí hiệu $P \Leftrightarrow Q$.
+- Mệnh đề $P \Leftrightarrow Q$ chỉ đúng khi $P \Rightarrow Q$ và $Q \Rightarrow P$ đều đúng (tức $P$ và $Q$ có cùng tính đúng sai).
+
+### Mệnh đề có chứa kí hiệu $\forall$, $\exists$
+
+### Khái niệm
+
+- Cho mệnh đề chứa biến $P(x)$ với $x \in X$. Khẳng định "Với mọi $x$ thuộc $X$, $P(x)$ đúng" được viết lại: "$ \forall x \in X, P(x)$".
+- Cho mệnh đề chứa biến $P(x)$ với $x \in X$. Khẳng định "Tồn tại $x$ thuộc $X$ để $P(x)$ đúng" được kí hiệu "$ \exists x \in X, P(x)$".
+- Mệnh đề phủ định của mệnh đề "$ \forall x \in X, P(x)$" là "$ \exists x \in X, \overline{P(x)}$".
+- Mệnh đề phủ định của mệnh đề "$ \exists x \in X, P(x)$" là "$ \forall x \in X, \overline{P(x)}$".
+
+
+# Tập hợp và các phép toán trên tập hợp
+
+## Tập hợp
+
+### Tập hợp
+
+- $a \in S$: phần tử $a$ thuộc tập $S$.
+- $a \notin S$: phần tử $a$ không thuộc tập hợp $S$.
+- Có thể mô tả một tập hợp bằng một trong hai cách sau:
+  - **Cách 1**: Liệt kê các phần tử của tập hợp;
+  - **Cách 2**: Chỉ ra tính chất đặc trưng cho các phần tử của tập hợp.
+- Tập hợp không chứa phần tử nào được gọi là tập rỗng, kí hiệu là $\varnothing$.
+
+### Tập hợp con
+
+- Nếu mọi phần tử của tập hợp $T$ đều là phần tử của tập hợp $S$ thì ta nói $T$ là một tập hợp con (tập con) của $S$ và viết là $T \subset S$ (đọc là $T$ chứa trong $S$ hoặc $T$ là tập con của $S$).
+
+- **Nhận xét**:
+  - Từ định nghĩa trên, $T$ là tập con của $S$ nếu mệnh đề sau đúng: $\forall x, x \in T \Rightarrow x \in S$.
+  - Quy ước tập rỗng là tập con của mọi tập hợp.
+
+### Hai tập hợp bằng nhau
+
+- Hai tập hợp $S$ và $T$ được gọi là hai tập hợp bằng nhau nếu mỗi phần tử của $T$ cũng là phần tử của tập hợp $S$ và ngược lại. Kí hiệu là $S=T$.
+- Nếu $S \subset T$ và $T \subset S$ thì $S=T$.
+
+---
+
+### Các tập hợp số
+
+- Tập hợp các số tự nhiên $\mathbb{N}=\{0 ; 1 ; 2 ; 3 ; 4 ; \ldots\}$.
+- Tập hợp các số nguyên $\mathbb{Z}$ gồm các số tự nhiên và các số nguyên âm: $\mathbb{Z}=\{\ldots ;-3 ;-2 ;-1 ; 0 ; 1 ; 2 ; 3 ; \ldots\}$.
+- Tập hợp các số hữu tỉ $\mathbb{Q}$ gồm các số viết được dưới dạng phân số $\dfrac{a}{b}$, với $a, b \in \mathbb{Z}, b \neq 0$. Số hữu tỉ còn được biểu diễn dưới dạng số thập phân hữu hạn hoặc vô hạn tuần hoàn.
+- Tập hợp các số thực $\mathbb{R}$ gồm các số hữu tỉ và các số vô tỉ. Số vô tỉ là các số thập phân vô hạn không tuần hoàn.
+- Mối quan hệ giữa các tập hợp số: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$.
+
+---
+
+### Các tập con thường dùng của $\mathbb{R}$
+
+- **Khoảng**:
+  - $(a ; b)=\{x \in \mathbb{R} \mid a<x<b\}$
+  - $(a ;+\infty)=\{x \in \mathbb{R} \mid x>a\}$
+  - $(-\infty ; b)=\left\{x \in \mathbb{R} \mid x<b\right\}$
+  - $(-\infty ;+\infty)$
+- **Đoạn**:
+  - $[a ; b]=\{x \in \mathbb{R} \mid a \leq x \leq b\}$
+- **Nửa khoảng**:
+  - $[a ; b)=\{x \in \mathbb{R} \mid a \leq x<b\}$
+  - $(a ; b]=\{x \in \mathbb{R} \mid a<x \leq b\}$
+  - $[a ;+\infty)=\{x \in \mathbb{R} \mid x \geq a\}$
+  - $(-\infty ; b]=\{x \in \mathbb{R} \mid x \leq b\}$
+
+---
+
+### Tập con và tập hợp bằng nhau
+
+- **Tập con**: $A\subset B \Leftrightarrow (\forall x, x \in A \Rightarrow x \in B).$
+- **Tập hợp bằng nhau**: $A = B \Leftrightarrow (A \subset B \text{ và } B \subset A)$.
+
+---
+
+### Các phép toán trên tập hợp
+
+- **Giao của hai tập hợp**: Tập hợp gồm các phần tử thuộc cả hai tập hợp $S$ và $T$ gọi là giao của hai tập hợp $S$ và $T$, kí hiệu là $S \cap T$.
+  $$S \cap T=\{x \mid x \in S \text{ và } x \in T\}$$
+- **Hợp của hai tập hợp**: Tập hợp gồm các phần tử thuộc tập hợp $S$ hoặc thuộc tập hợp $T$ gọi là hợp của hai tập hợp $S$ và $T$. Kí hiệu là $S \cup T$.
+  $$S \cup T=\{x \mid x \in S \text{ hoặc } x \in T\}$$
+- **Hiệu của hai tập hợp**:
+  - Hiệu của hai tập hợp $S$ và $T$ là tập hợp gồm các phần tử thuộc $S$ nhưng không thuộc $T$, kí hiệu là $S \backslash T$.
+    $$S \backslash T=\{x \mid x \in S \text{ và } x \notin T\}$$
+  - Nếu $T \subset S$ thì $S \backslash T$ được gọi là phần bù của $T$ trong $S$, kí hiệu là $C_{S} T$.

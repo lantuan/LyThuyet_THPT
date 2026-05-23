@@ -1,0 +1,96 @@
+# Các khái niệm mở đầu
+
+## Tóm tắt lý thuyết
+
+### Khái niệm véc-tơ
+
+- Véc-tơ là một đoạn thẳng có hướng.
+- Véc-tơ có điểm đầu là $A$, điểm cuối là $B$ được kí hiệu là $\vec{AB}$, đọc là "véc-tơ $AB$".
+- Đối với véc-tơ $AB$, ta gọi:
+  - Đường thẳng $d$ đi qua hai điểm $A$ và $B$ là giá của véc-tơ $AB$.
+  - Độ dài đoạn thẳng $AB$ là độ dài của véc-tơ $AB$, kí hiệu là $\left| \vec{AB}\right|$.
+
+### Ví dụ minh họa cơ bản
+
+Ví dụ:
+Cho hai điểm phân biệt $H$, $K$. Viết hai véc-tơ mà điểm đầu và điểm cuối là $H$ hoặc $K$.
+
+### Hai véc-tơ cùng phương, cùng hướng, bằng nhau
+
+- Hai véc-tơ được gọi là cùng phương nếu giá của chúng song song hoặc trùng nhau.
+- **Nhận xét:** Nếu hai véc-tơ cùng phương thì hoặc chúng cùng hướng hoặc chúng ngược hướng.
+- Hai véc-tơ $\vec{AB}$, $\vec{CD}$ bằng nhau nếu chúng cùng hướng và cùng độ dài, kí hiệu: $\vec{AB} = \vec{CD}$.
+- Khi không cần chỉ rõ điểm đầu và điểm cuối của véc-tơ, véc-tơ còn được kí hiệu là $\vec{a}$, $\vec{b}$, $\vec{u}$, $\vec{v}$, \dots Độ dài của véc-tơ $\vec{a}$ được kí hiệu là $\left| \vec{a} \right|$.
+- **Nhận xét:**
+  - Hai véc-tơ $\vec{a}$, $\vec{b}$ bằng nhau nếu chúng cùng hướng và cùng độ dài, kí hiệu là $\vec{a} = \vec{b}$.
+  - Khi cho trước véc-tơ $\vec{a}$ và điểm $O$, thì ta luôn tìm được một điểm $A$ duy nhất sao cho $\vec{OA} = \vec{a}$.
+
+### Véc-tơ không
+
+- Véc-tơ không là véc-tơ có điểm đầu và điểm cuối trùng nhau, kí hiệu là $\vec{0}$.
+- Với các điểm bất kì $A$, $B$, $C$ ta có $\vec{0} = \vec{AA} =\vec{BB} = \vec{CC}$.
+- Véc-tơ $\vec{AA}$ nằm trên mọi đường thẳng đi qua $A$. Ta quy ước $\vec{0}$ (véc-tơ không) cùng phương và cùng hướng với mọi véc-tơ; hơn nữa $\left| \vec{0} \right| = 0$.
+- **Nhận xét:** Hai điểm $A$, $B$ trùng nhau khi và chỉ khi $\vec{AB} = \vec{0}$.
+
+### Xác định một véc-tơ, độ dài véc-tơ
+
+- Véc-tơ là một đoạn thẳng có hướng, nghĩa là, trong hai điểm mút của đoạn thẳng, đã chỉ rõ điểm đầu, điểm cuối.
+- Độ dài của véc-tơ là khoảng cách giữa điểm đầu và điểm cuối của véc-tơ đó.
+
+### Hai vectơ cùng phương, cùng hướng và bằng nhau
+
+- Hai vectơ cùng phương nếu chúng có giá song song hoặc trùng nhau.
+- Hai vectơ cùng phương thì cùng hướng hoặc ngược hướng.
+- Hai vectơ bằng nhau nếu chúng cùng độ dài và cùng hướng.
+
+# Tổng và hiệu của hai véc-tơ
+
+## Tóm tắt lý thuyết
+
+### Tổng của hai véc-tơ
+
+- **Định nghĩa:** Cho hai véc-tơ $\vec{a}$ và $\vec{b}$. Lấy một điểm $A$ tùy ý, vẽ $\vec{AB} = \vec{a}$ và $\vec{BC} = \vec{b}$. Véc-tơ $\vec{AC}$ được gọi là tổng của hai véc-tơ $\vec{a}$ và $\vec{b}$. Kí hiệu là $\vec{a} + \vec{b}$.
+- **Quy tắc ba điểm:** Với ba điểm bất kì $A$, $B$, $C$, ta luôn có:
+  $$\vec{AB} + \vec{BC} = \vec{AC}$$
+- **Quy tắc hình bình hành:** Nếu $ABCD$ là hình bình hành thì:
+  $$\vec{AB} + \vec{AD} = \vec{AC}$$
+- **Tính chất:**
+  - Tính chất giao hoán: $\vec{a} + \vec{b} = \vec{b} + \vec{a}$
+  - Tính chất kết hợp: $(\vec{a} + \vec{b}) + \vec{c} = \vec{a} + (\vec{b} + \vec{c})$
+  - Tính chất của véc-tơ không: $\vec{a} + \vec{0} = \vec{0} + \vec{a} = \vec{a}$
+
+### Hiệu của hai véc-tơ
+
+- **Véc-tơ đối:** Véc-tơ có cùng độ dài và ngược hướng với véc-tơ $\vec{a}$ được gọi là véc-tơ đối của véc-tơ $\vec{a}$, kí hiệu là $-\vec{a}$.
+  - Đặc biệt: $\vec{a} + (-\vec{a}) = \vec{0}$ và $-\vec{AB} = \vec{BA}$.
+- **Định nghĩa hiệu hai véc-tơ:** Hiệu của hai véc-tơ $\vec{a}$ và $\vec{b}$ là tổng của véc-tơ $\vec{a}$ và véc-tơ đối của véc-tơ $\vec{b}$, kí hiệu là $\vec{a} - \vec{b} = \vec{a} + (-\vec{b})$.
+- **Quy tắc hiệu (quy tắc ba điểm đối với phép trừ):** Với ba điểm bất kì $O$, $A$, $B$, ta luôn có:
+  $$\vec{OB} - \vec{OA} = \vec{AB}$$
+
+### Các tính chất hình học căn bản
+
+- Trung điểm đoạn thẳng: Điểm $I$ là trung điểm của đoạn thẳng $AB$ khi và chỉ khi $\vec{IA} + \vec{IB} = \vec{0}$.
+- Trọng tâm tam giác: Điểm $G$ là trọng tâm của tam giác $ABC$ khi và chỉ khi $\vec{GA} + \vec{GB} + \vec{GC} = \vec{0}$.
+
+# Tích của một véc-tơ với một số
+
+## Tóm tắt lí thuyết
+
+### Tích của một véc-tơ với một số
+
+- Tích của một véc-tơ $\overrightarrow{a}\ne \overrightarrow{0}$ với một số $k>0$ là một véc-tơ, kí hiệu là $k\overrightarrow{a}$, cùng hướng với véc-tơ $\overrightarrow{a}$ và có độ dài bằng $k|\overrightarrow{a}|$.
+- Tích của một véc-tơ $\overrightarrow{a}\ne \overrightarrow{0}$ với một số $k<0$ là một véc-tơ, kí hiệu là $k\overrightarrow{a}$, ngược hướng với véc-tơ $\overrightarrow{a}$ và có độ dài bằng $(-k)|\overrightarrow{a}|$.
+- Ta quy ước $k\overrightarrow{a}=\overrightarrow{0}$ nếu $\overrightarrow{a}=\overrightarrow{0}$ hoặc $k=0$.
+
+### Các tính chất của phép nhân véc-tơ với một số
+
+Với hai véc-tơ $\overrightarrow{a}$, $\overrightarrow{b}$ và hai số thực $k$, $t$, ta luôn có:
+- $k(t \overrightarrow{a})=(k t) \overrightarrow{a}$
+- $(k+t) \overrightarrow{a}=k \overrightarrow{a}+t \overrightarrow{a}$
+- $k(\overrightarrow{a}\pm\overrightarrow{b})=k \overrightarrow{a}\pm k \overrightarrow{b}$
+- $1\overrightarrow{a}=\overrightarrow{a}$; $(-1) \overrightarrow{a}=-\overrightarrow{a}$
+
+**Nhận xét:**
+- Điểm $I$ là trung điểm của đoạn thẳng $AB$ khi và chỉ khi $\overrightarrow{IA}+\overrightarrow{IB}=\overrightarrow{0}$.
+- Cho tam giác $ABC$, điểm $G$ là trọng tâm của tam giác $ABC$ khi và chỉ khi $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\overrightarrow{0}$.
+- Cho hai véc-tơ không cùng phương $\overrightarrow{a}$ và $\overrightarrow{b}$. Khi đó, mọi véc-tơ $\overrightarrow{u}$ đều biểu thị (phân tích) được một các duy nhất theo hai véc-tơ $\overrightarrow{a}$ và $\overrightarrow{b}$, nghĩa là có duy nhất cặp số $(x,y)$ sao cho $\overrightarrow{u}=x\overrightarrow{a}+y\overrightarrow{b}$.
